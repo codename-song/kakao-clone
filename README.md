@@ -1,3 +1,3 @@
 # kakao-clone
 
-CSS, HTML Practive Project
+CSS, HTML Practice Project
