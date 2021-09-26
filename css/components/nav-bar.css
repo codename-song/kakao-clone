@@ -33,3 +33,17 @@
   left: 14px;
   top: -10px;
 }
+
+.nav__notification_dot {
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 23px;
+  top: -7px;
+}
