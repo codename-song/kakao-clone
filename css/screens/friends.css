@@ -10,17 +10,3 @@
 #friends-display-link i {
   color: rgba(0, 0, 0, 0.2);
 }
-
-.friends-screen__channel {
-  margin-top: 20px;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-  padding-top: 10px;
-}
-
-.friends-screen__channel-header {
-  font-size: 13px;
-  color: rgba(0, 0, 0, 0.4);
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 20px;
-}

@@ -1,0 +1,99 @@
+.find-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.find-icons__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.find-icons__icon span {
+  font-size: 17px;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.find-icons div:nth-of-type(3) span {
+  white-space: nowrap;
+}
+
+.find-icons__icon i {
+  font-size: 30px;
+}
+
+.find-recommanded-friends {
+  display: block;
+  text-align: center;
+  margin: 100px 0px;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* Open Post CSS */
+.open-post__colunm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.open-post__title {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 1);
+  margin-bottom: 5px;
+}
+
+.open-post__description {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 5px;
+}
+
+.open-post__menbers {
+  display: flex;
+  align-items: center;
+}
+
+.open-post__menbers img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.open-post__menbers-count {
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-left: 3px;
+}
+
+.open-post__menbers-divider {
+  color: rgba(0, 0, 0, 0.5);
+  margin: 0px 5px;
+}
+
+.open-post__menbers-status {
+  font-size: 13px;
+  color: #ff6bc6;
+}
+
+.open-post__colunm-image {
+  position: relative;
+}
+
+.open-post__colunm-image img {
+  width: 50px;
+  height: 50px;
+  border-radius: 20%;
+}
+
+.open-post__colunm-image span {
+  width: 30px;
+  height: 10px;
+  padding: 3px;
+  font-size: 8px;
+  border-radius: 10%;
+  background-color: black;
+  color: white;
+}

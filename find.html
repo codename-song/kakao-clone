@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome</title>
+  </head>
+
+  <body>
+    <!-- status bar -->
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>13:17</span>
+      </div>
+      <div class="status-bar__column">
+        <span>86%</span>
+        <i class="fas fa-battery-three-quarters fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <!-- Scren Header -->
+    <header class="screen-header">
+      <h1 class="screen-header__title">Find</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-cog fa-lg"></i></span>
+      </div>
+    </header>
+
+    <!-- main Screen display -->
+    <main class="main-screen">
+      <!-- Find Icons-->
+      <div class="find-icons">
+        <div class="find-icons__icon">
+          <i class="fas fa-qrcode fa-lg"></i>
+          <span>QR Code</span>
+        </div>
+        <div class="find-icons__icon">
+          <i class="far fa-address-book fa-lg"></i>
+          <span>Add by Contacts</span>
+        </div>
+        <div class="find-icons__icon">
+          <i class="far fa-id-card fa-lg"></i>
+          <span>Add by ID</span>
+        </div>
+        <div class="find-icons__icon">
+          <i class="far fa-envelope fa-lg"></i>
+          <span>Invite</span>
+        </div>
+      </div>
+
+      <!-- Recommanded Friends Display -->
+      <div class="display-divider">
+        <h6 class="display-divider__header">Recommanded Friends</h6>
+        <span class="find-recommanded-friends">
+          You have no recommanded friends
+        </span>
+      </div>
+
+      <div class="display-divider">
+        <h6 class="display-divider__header">
+          Open Chat
+          <span class="display-divider__content"
+            >Go to OpenChat Home <i class="fas fa-chevron-right fa-xs"></i
+          ></span>
+        </h6>
+      </div>
+
+      <!-- Open Post Display -->
+      <div class="open-post">
+        <div class="open-post__colunm">
+          <div class="open-post__colunm-display">
+            <h5 class="open-post__title">#OpenChat Title</h5>
+            <h6 class="open-post__description">#OpenChat #Descriptons</h6>
+
+            <div class="open-post__menbers">
+              <img
+                src="https://cdn.mos.cms.futurecdn.net/NrrCd7TzkyKwqrBpp2RgUW-1024-80.jpg.webp"
+              />
+              <span class="open-post__menbers-count">4857 members</span>
+              <div class="open-post__menbers-divider">|</div>
+              <span class="open-post__menbers-status">Active</span>
+            </div>
+          </div>
+          <div class="open-post__colunm-image">
+            <img
+              src="https://cdn.vox-cdn.com/thumbor/MSeAklkVtCARyNN6_hHMmJdfdMg=/0x0:4032x3024/1820x1213/filters:focal(1694x1190:2338x1834):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/66290775/GettyImages_1129073013.0.jpg"
+            />
+            <span><i class="fas fa-heart"></i>7879</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__link">
+          <a class="nav__btn" href="friends.html"
+            ><i class="far fa-user fa-lg"></i
+          ></a>
+        </li>
+        <li class="nav__link">
+          <a class="nav__btn" href="chats.html">
+            <span class="badge">1</span>
+            <i class="far fa-comment-dots fa-lg"></i
+          ></a>
+        </li>
+        <li class="nav__link">
+          <a class="nav__btn" href="friends.html"
+            ><i class="fas fa-search-plus fa-lg"></i
+          ></a>
+        </li>
+        <li class="nav__link">
+          <a class="nav__btn" href="index.html">
+            <span class="badge_dot"></span>
+            <i class="fas fa-ellipsis-h fa-lg"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Script should be located at the end of the body code -->
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

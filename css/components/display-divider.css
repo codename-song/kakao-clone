@@ -1,0 +1,24 @@
+.display-divider {
+  margin-top: 20px;
+  border-top: var(--main-border);
+  padding-top: 10px;
+}
+
+.display-divider__content,
+.display-divider__header {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.display-divider__content {
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.2);
+  align-items: center;
+}
+
+.display-divider__content i {
+  margin-left: 3px;
+}
