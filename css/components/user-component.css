@@ -1,0 +1,55 @@
+.user-component {
+  justify-content: space-between;
+}
+.user-component,
+.user-component__colmmun:first-child {
+  display: flex;
+  align-items: center;
+}
+.user-component__colmmun:last-child {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.user-component__time {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.user-component__photo {
+  width: 50px;
+  height: 50px;
+  border-radius: 35%;
+}
+.user-component__photo--xl {
+  width: 60px;
+  height: 60px;
+}
+.user-component__photo--xs {
+  width: 40px;
+  height: 40px;
+}
+
+.user-component__info {
+  margin-left: 10px;
+}
+
+.user-component__name {
+  font-size: 18px;
+  font-weight: 600;
+}
+.user-component__name--xs {
+  font-size: 14px;
+  font-weight: 400px;
+}
+.user-component__description {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.3);
+  margin-top: 5px;
+}
+
+.user-component > :last-child {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.3);
+  letter-spacing: 5px;
+}
