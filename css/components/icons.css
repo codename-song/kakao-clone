@@ -1,0 +1,35 @@
+.icons {
+  display: flex;
+  justify-content: space-between;
+}
+.icons-alignleft {
+  justify-content: left;
+}
+.icons__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icons__icon-alignleft {
+  margin-left: 20px;
+}
+
+.icons__icon__text {
+  font-size: 17px;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.icons__icon__text-small {
+  font-size: 13px;
+}
+
+.icons div:nth-of-type(3) span {
+  white-space: nowrap;
+}
+
+.icons__icon i {
+  font-size: 30px;
+}

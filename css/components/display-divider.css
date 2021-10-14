@@ -13,6 +13,10 @@
   margin-bottom: 20px;
 }
 
+.display-divider__header-textblack {
+  color: black;
+}
+
 .display-divider__content {
   font-size: 10px;
   color: rgba(0, 0, 0, 0.2);
