@@ -1,0 +1,28 @@
+.setting-list {
+}
+
+.setting-item {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+}
+
+.setting-item__column {
+}
+
+.setting-item__column i,
+.setting-item__column__title {
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.setting-item__column__title {
+  margin-left: 15px;
+}
+
+.setting-item .setting-item__column:last-child {
+  color: rgba(0, 0, 0, 0.3);
+}
