@@ -21,6 +21,7 @@
   height: 18px;
   display: flex;
   justify-content: center;
+  margin-bottom: 10px;
 }
 
 .chat-time span {
@@ -28,4 +29,54 @@
   font-weight: 100;
   font-size: 11px;
   margin: auto;
+}
+
+.message-box {
+  width: 100%;
+  display: flex;
+  margin-bottom: 13px;
+}
+.message-box--right {
+  justify-content: flex-end;
+}
+
+.message-box__photo {
+  width: 40px;
+  height: 40px;
+  border-radius: 35%;
+}
+
+.message-box__content {
+  margin-left: 7px;
+}
+.message-box__content__bubble__time,
+.message-box__content__name {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.5);
+  display: block;
+  margin-bottom: 7px;
+}
+.message-box__content__bubble__time {
+  font-size: 10px;
+}
+.message-box__content__bubble {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.message-box__content__bubble__text {
+  background-color: white;
+  padding: 10px 13px;
+  font-size: 14px;
+  border-radius: 15px;
+  border-top-left-radius: 0px;
+  margin-right: 5px;
+}
+
+.message-box__content__bubble__text--right {
+  background-color: var(--kakaoyellow);
+  border-radius: 15px;
+  border-top-right-radius: 0px;
+  margin-left: 5px;
 }
